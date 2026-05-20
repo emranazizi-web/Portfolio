@@ -1,1 +1,216 @@
+<!DOCTYPE html>
+<html language="english">
+  <head>
+    <title>Emran Azizi Portfolio Website</title>
 
+<style>
+
+  /*Background*/
+
+  body {
+    background:(32,32,32);
+    margin:0;
+    color:white;
+    overflow-x:hidden;
+    font-size:16px;
+  }
+
+  canvas {
+    position:fixed;
+  }
+
+  .page-layout {
+    max-width:1000px:
+    margin:auto;
+    padding:24px;
+  }
+
+  /*Menu*/
+
+  nav {
+    display:flex;
+    gap:24px;
+    padding:12px;
+    background:(32,32,32);
+    justify-content:center;
+    position:sticky;
+    top:0;
+  }
+
+  nav a {
+    color:white;
+    font-size:18px;
+    font-wight:bold;
+    transition:1s;
+  }
+  
+  nav a:hover {
+    color:(56,244,172);
+  }
+
+  /*Title*/
+
+  .hero {
+    text-align:center;
+    padding:62px 22px;
+  }
+
+  /*Profile*/
+
+  .hero img {
+    width:180px;
+    height:196px;
+    border-radius:50%;
+    border:1px solid (54,244,174);
+    box-shadow:0 0 16px (54,244,174);
+    margin-bottom:16px;
+  }
+
+  /*Introduction*/
+
+  .hero h1 {
+    font-size:34px;
+  }
+
+  .hero h2 {
+    color:white;
+    margin-bottom:24px;
+  }
+
+  .hero p {
+    max-width:740px;
+    line-height:1.2;
+    font-size:16px;
+    text-align:center;
+    display:flex;
+    margin:16px auto;
+  }
+
+  /*CV*/
+
+  .cv-pdf {
+    color:white;
+    background:(34,104,74);
+    font-size:16px;
+    padding:12px 24px;
+    border-radius:10px;
+  }
+
+  /*Contact*/
+
+  .contact-card {
+    width:310px;
+    margin:auto;
+    color:white;
+  }
+
+  #contact a {
+    color:white;
+  }
+
+  /*Education*/
+
+  .certificate-pdf {
+    background:(34.104,74);
+    color:white;
+    padding:12px 24px;
+    font-size:16px;
+    border-radius:10px;
+  }
+
+  /*Card*/
+
+  .grid {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(198px,1fr));
+    gap:24px;
+  }
+
+  .card {
+    background:(28,28,28);
+    padding:20px;
+    border-radius:10px;
+    border:1.2px solid (54,244,174);
+    box-shadow:0 0 18px (54,244,174);
+    transition:1s;
+  }
+
+  .card:hover {
+    transform:translateY(-6px);
+    color:white;
+  }
+  
+  .btn {
+    display:inline-block;
+    padding:12px 18px;
+    background:(34,104,74);
+    border-radius:10px;
+    margin-top:10px;
+    transition:1s;
+  }
+
+  section {
+    margin:62px;
+  }
+
+  h2 {
+    margin-bottom:24px;
+    text-align:center;
+  }
+
+  /*Project*/
+
+  .pdf-card {
+    background:(34,104,74);
+    color:white;
+    display:inline-block;
+    padding:12px 20px;
+    border-radius:10px;
+    font-size:18px;
+  }
+
+
+
+</style>
+</head>
+  <body>
+
+    <canvas id="code"></canvas>
+
+    <!--Menu-->
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#contact">Contcat</a>
+      <a href="#certificates">Certificates & Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#experince">Experince</a>
+      <a href="#project">Project</a>
+    </nav>
+
+    <!--Profile-->
+
+    <div class="hero" id="about">
+
+      <img src="profile.jpg">
+          <h1>Emran Azizi</h1>
+          <h2>BEng Software Engineering Student</h2>
+
+    <div class="budge open-badge">
+      Open TO Part-Time / Student Job (Werkstudent)
+    </div>
+
+    <!--Introduction-->
+
+      <p>
+        I am Student Of (BEng Software Engineering) at GISMA University Of Applied Sciences In Berlin Germany.
+      </p>
+
+   </body>
+</html>
+    
+  
+     
+               
+    
+  
