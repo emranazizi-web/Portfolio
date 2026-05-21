@@ -15,21 +15,29 @@ I want to become a skilled Software Engineerr and take part into Human developme
 
 ---
 
-#Portfolio Website
-
-Personal Introducation
-Education and Certificates
-Skills
-Experince
-Projects
-
----
-
 # My Website Structure
 
 ```bash
 Emran-Azizi-Portfolio
-index.html
+index.html & CSS
 photos
 pdf
 ```
+
+#Sections
+
+-About me
+-contact
+-Education & Certificates
+-Skills
+-Experince
+-Projects
+
+---
+
+# Purpose
+
+This Portfolio Website present.
+-Growth as a Software Engineer.
+-Academic Journey in Software Engineering.
+-Skills and Experince I have.
